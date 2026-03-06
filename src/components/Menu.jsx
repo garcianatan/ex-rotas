@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
+import "./Menu.css"
 
 function Menu() {
     return(
-        <nav style={{background: "#333", padding: "10px"}}>
-            <Link style={{color: "#fff", marginRight: "20px"}} to={"/"}>Home</Link>
-            <Link style={{color: "#fff", marginRight: "20px"}} to={"/produtos"}>Produtos</Link>
-            <Link style={{color: "#fff", marginRight: "20px"}} to={"/empresa"}>Empresa</Link>
-            <Link style={{color: "#fff", marginRight: "20px"}} to={"/contato"}>Contato</Link>
+        <nav id="menu">
+            <Link id='txtMenu'  to={"/"}>Home</Link>
+            <Link id='txtMenu'  to={"/produtos"}>Produtos</Link>
+            <Link id='txtMenu'  to={"/empresa"}>Empresa</Link>
+            <Link id='txtMenu'  to={"/contato"}>Contato</Link>
         </nav>
     )
 }

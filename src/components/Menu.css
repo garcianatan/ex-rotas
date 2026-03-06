@@ -1,0 +1,18 @@
+#menu {
+    text-align: center;
+    height: 40px;
+    align-content: center;
+    background-color: rgb(170, 170, 170);
+    padding: 10px;
+    
+}
+
+#txtMenu{
+    color: white;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+#txtMenu:hover{
+    color: antiquewhite;
+}

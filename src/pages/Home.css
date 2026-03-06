@@ -1,0 +1,29 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+#div {
+    height: 88.4vh;
+    display: flex;
+    width: 60rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 196, 196);
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+#div h1{
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+#div p{
+    width: 45rem;
+}
