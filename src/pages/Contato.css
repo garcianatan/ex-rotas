@@ -1,0 +1,47 @@
+#div-contato{
+    height: 87.3vh;
+    display: flex;
+    width: 60rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 196, 196);
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+#div-contato h1{
+    margin-bottom: 40px;
+}
+
+#div-contato ul{
+    margin-top: 20px;
+}
+
+#div-contato li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
+
+}
+
+#div-contato li:hover{
+    text-decoration: underline;
+}
+
+#logo-zap{
+    width: 1.5rem;
+}
+
+#logo-email{
+    width: 1.5rem;
+}
+
+#logo-insta{
+    width: 1.5rem;
+}
+
+#logo-pin{
+    width: 1.5rem;
+}

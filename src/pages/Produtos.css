@@ -1,13 +1,4 @@
-/* body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-
-
-#div {
+#div-produtos{
     height: 87.3vh;
     display: flex;
     width: 60rem;
@@ -19,11 +10,24 @@
     border-radius: 8px;
 }
 
-#div h1{
-    color: rgb(0, 0, 0);
+#div-produtos h1{
     margin-bottom: 40px;
 }
 
-#div p{
+#div-produtos p{
     width: 45rem;
+}
+
+#div-produtos ul{
+    margin-top: 50px;
+    justify-content: left;
+}
+
+#div-produtos li{
+    margin-top: 12px;
+}
+
+#div-produtos li:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(217, 243, 243);
 }
