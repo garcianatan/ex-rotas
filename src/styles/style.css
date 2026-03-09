@@ -1,0 +1,52 @@
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    max-width:400px;
+}
+
+input, textarea{
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    background:#333;
+    color:white;
+    border:none;
+}
+
+    /* responsivo */
+@media(max-width:900px){
+    .grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+}

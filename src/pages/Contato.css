@@ -5,7 +5,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    background-color: rgb(194, 196, 196);
+    /* background-color: rgb(194, 196, 196); */
     flex-direction: column;
     border-radius: 8px;
 }
@@ -44,4 +44,46 @@
 
 #logo-pin{
     width: 1.5rem;
+}
+
+
+.div-form{
+    margin-top: 50px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-form h2{
+    text-align: center;
+}
+
+.div-form input, textarea{
+    border-radius: 8px;
+    width: 260px;
+    border: none;
+}
+
+.div-form textarea{
+    height: 100px;
+    resize: none;
+}
+
+.div-form button{
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form{
+    margin-top: 30px;
 }

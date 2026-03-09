@@ -14,7 +14,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    background-color: rgb(194, 196, 196);
+    /* background-color: rgb(194, 196, 196); */
     flex-direction: column;
     border-radius: 8px;
 }
