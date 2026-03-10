@@ -21,10 +21,10 @@ function Home() {
             <CarouselHome/>
             <h2>Informações</h2>
             <div className="grid">
-                <Card titulo="Serviço 1" texto="Descrição do serviço" imagem="https://picsum.photos/200?1"/>
-                <Card titulo="Serviço 2" texto="Descrição do serviço" imagem="https://picsum.photos/200?2"/>
-                <Card titulo="Serviço 3" texto="Descrição do serviço" imagem="https://picsum.photos/200?3"/>
-                <Card titulo="Serviço 4" texto="Descrição do serviço" imagem="https://picsum.photos/200?4"/>
+                <Card titulo="Desenvolvimento de Software Sob Medida" texto="Criação de sistemas personalizados para atender às necessidades específicas de cada empresa." imagem="https://picsum.photos/200?1"/>
+                <Card titulo="Desenvolvimento de Sites Institucionais" texto="Criação de sites profissionais para fortalecer a presença digital das empresas." imagem="https://picsum.photos/200?2"/>
+                <Card titulo="Desenvolvimento de Aplicações Web" texto="Construção de sistemas acessíveis pelo navegador para gestão, serviços e plataformas digitais." imagem="https://picsum.photos/200?3"/>
+                <Card titulo="Automação de Processos Empresariais" texto="Implementação de soluções tecnológicas que reduzem tarefas manuais e aumentam a produtividade." imagem="https://picsum.photos/200?4"/>
                 <Card titulo="Serviço 5" texto="Descrição do serviço" imagem="https://picsum.photos/200?5"/>
                 <Card titulo="Serviço 6" texto="Descrição do serviço" imagem="https://picsum.photos/200?6"/>
                 <Card titulo="Serviço 7" texto="Descrição do serviço" imagem="https://picsum.photos/200?7"/>
